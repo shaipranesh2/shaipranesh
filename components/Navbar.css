@@ -1,0 +1,19 @@
+.BigNav {
+    display: block;
+  }
+  .SmallNav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media screen and (min-width: 854px) {
+    .SmallNav {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 853px) {
+    .BigNav {
+      display: none;
+    }
+  }
