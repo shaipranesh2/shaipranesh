@@ -103,9 +103,10 @@ export default function Navbar() {
             <Button variant="outlined">
               <div className="flex gap-2">
                 <FileDownloadOutlinedIcon />
-                <a href="Shai_resume (2).pdf" download>
+                <a href="Shai_resume (2).pdf?download=100" download>
                   CV
                 </a>
+                {/* <p>CV</p> */}
               </div>
             </Button>
           </div>

@@ -5,11 +5,11 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import Button from "@mui/material/Button";
 import { ThemeProvider } from "next-themes";
 import React from "react";
-export default function Blog() {
+export default function Cv() {
   const [typedText, setTypedText] = React.useState("");
 
   React.useEffect(() => {
-    const text = "My Projects";
+    const text = "My CV";
     let currentIndex = 0;
     const interval = setInterval(() => {
       if (currentIndex <= text.length) {
@@ -32,9 +32,12 @@ export default function Blog() {
           </Button>
         </Link></div>
         <div>
-          <p style={{ fontSize: "3rem", textAlign: "center", color: "rgba(0, 170, 255,1)" }}>
+        <p style={{ fontSize: "3rem", textAlign: "center", color: "rgba(0, 170, 255,1)",paddingTop:"24px" }}>
             {typedText}
           </p>
+        </div>
+        <div>
+            <embed src="Shai_resume(2).pdf" type="application/pdf" width="100%" height="600" />
         </div>
       </main>
     </ThemeProvider>

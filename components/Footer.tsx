@@ -29,7 +29,7 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-            <h2>I am most responsive on LinkedIn and my email.</h2>
+            <h2 style={{textAlign:"center"}}>I am most responsive on LinkedIn and my email.</h2>
         </>
     );
 }

@@ -9,7 +9,7 @@ export default function Blog() {
   const [typedText, setTypedText] = React.useState("");
 
   React.useEffect(() => {
-    const text = "My Experience";
+    const text = "My Projects";
     let currentIndex = 0;
     const interval = setInterval(() => {
       if (currentIndex <= text.length) {
