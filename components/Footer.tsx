@@ -19,12 +19,12 @@ export default function Footer() {
                     </a>
                 </div>
                 <div>
-                    <a href='#'>
+                    <a href='https://www.linkedin.com/in/shaipranesh-s-921461215/'>
                         <LinkedInIcon style={iconStyle}/>
                     </a>
                 </div>
                 <div>
-                    <a href='#'>
+                    <a href='mailto:f20200731@pilani.bits-pilani.ac.in'>
                         <EmailIcon style={iconStyle}/>
                     </a>
                 </div>
