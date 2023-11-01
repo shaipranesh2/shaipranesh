@@ -1,0 +1,41 @@
+.GsocWeekDiv h3 {
+    color: rgb(0, 170, 255);
+    font-size: x-large;
+  }
+  .GsocWeekDiv p {
+    font-size: large;
+  }
+  .GsocWeekDiv {
+    padding: 2rem;
+    border: 1px solid rgba(0, 170, 255, 0.8);
+    margin: 2rem;
+    border-radius: 1.25rem;
+  }
+  .gsocheader {
+    color: rgb(0, 170, 255);
+    font-size: xx-large;
+    padding: 0 16px 0 16px;
+  }
+  .gsocp {
+    color: rgb(0, 170, 255);
+    font-size: x-large;
+    padding: 0 16px 0 16px;
+  }
+  .gsocp_ {
+    font-size: large;
+    padding: 0 32px 0 32px;
+  }
+  a {
+    color: rgb(0, 170, 255);
+    font-weight: 900;
+  }
+  .Gsoc{
+      padding: 16vw;
+      padding-top: 0;
+  }
+  @media screen and (max-width:762px) {
+      .Gsoc{
+          padding: 0;
+      }
+  }
+  
