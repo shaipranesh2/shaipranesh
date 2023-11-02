@@ -24,7 +24,7 @@ export default function Home() {
   
   return (
     <ThemeProvider enableColorScheme={true} attribute="class">
-    <main className="flex min-h-screen flex-col items-center justify-between p-8">
+    <main className="flex min-h-screen flex-col items-center justify-between" style={{padding:"10vw", paddingTop:"16px", paddingBottom:"8px"}}>
       <div className="fixed"><Navbar/></div>
       <div className="pt-36">
         <div className="">
