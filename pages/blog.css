@@ -1,5 +1,5 @@
 .GsocWeekDiv h3 {
-    color: rgb(0, 170, 255);
+  color:#0075FF;
     font-size: x-large;
   }
   .GsocWeekDiv p {
@@ -12,12 +12,12 @@
     border-radius: 1.25rem;
   }
   .gsocheader {
-    color: rgb(0, 170, 255);
+    color:#0075FF;
     font-size: xx-large;
     padding: 0 16px 0 16px;
   }
   .gsocp {
-    color: rgb(0, 170, 255);
+    color:#0075FF;
     font-size: x-large;
     padding: 0 16px 0 16px;
   }
@@ -26,7 +26,7 @@
     padding: 0 32px 0 32px;
   }
   a {
-    color: rgb(0, 170, 255);
+    color:#0075FF;
     font-weight: 900;
   }
   .Gsoc{

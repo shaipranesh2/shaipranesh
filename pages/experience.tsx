@@ -32,7 +32,7 @@ export default function Blog() {
           </Button>
         </Link></div>
         <div>
-        <p style={{ fontSize: "3rem", textAlign: "center", color: "rgba(0, 170, 255,1)",paddingTop:"24px" }}>
+        <p style={{ fontSize: "3rem", textAlign: "center", color: "#0075FF",paddingTop:"24px" }}>
             {typedText}
           </p>
         </div>
